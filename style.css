@@ -1,0 +1,393 @@
+html,body{
+   height: 100vh;
+    width: 100vw;
+    background-color: rgb(248, 248, 239);
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6, p, a, li, label{
+    font-family: cursive;
+
+}
+
+/* navigation bar style */
+.navBar{
+    width: 100vw;
+    height: 15vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    
+}
+.logo{
+    height: 100%;
+    width:10%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+  
+}
+.logoIcon{
+    height: 100%;
+    width:100%;
+    border-radius: 50%;
+}
+.links{
+    height: 100%;
+    width:65%;
+}
+
+.links ul{
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding-right: 10vw;
+}
+.links li{
+
+    font-weight: bold;
+}
+.anchorLinks{
+    color:rgb(104, 86, 73) ;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: font-size 1.5s, color 1.5s;
+}
+.anchorLinks:active{
+    font-size: 1.4em;
+}
+.anchorLinks:hover{
+    font-size: 1.4em;
+    color:rgb(56, 43, 33);
+}
+
+/* the welcome style */
+.welcome{
+    width:100vw;
+    text-align: center;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome h1{
+    height: 100%;
+    color: #9a5a68;
+    display: flex;
+    align-items: center;
+
+}
+/* three images in the middle */
+.center{
+    width: 100vw;
+    height: 30vh;
+   display: flex;
+   justify-content: space-evenly;
+   overflow: visible;
+   
+}
+.main{
+    /* margin: auto; */
+    /* margin-top: 20px; */
+    /* padding: auto; */
+   
+    width: 10vw;
+    height: 10vw;
+    border-radius: 12px;
+   
+    /* z-index: -2; */
+    transform: rotate(50deg);
+}
+
+ .innerDiv{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    transform: rotate(40deg);
+    /* z-index: -1; */
+}
+.image{
+    width: inherit;
+    height: inherit;
+    transform: rotate(-90deg);  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.centerImage{
+    width:80%;
+    height: 60%;
+} 
+.strawberryMain{
+    background-color:#fec5bb;
+    box-shadow: 5px 5px 20px #f9d2cc;
+    transition: all 1.5s;
+}
+.strawberryInnerDiv{
+    background-color: #fae1dd;
+}
+.chocolateMain{
+    background-color:rgb(134, 106, 86) ;
+    box-shadow: 5px 5px 20px rgb(203, 166, 139);
+    transition: all 1.5s;
+}
+.chocolateInnerDiv{
+    background-color: rgb(191, 162, 141);
+}
+.vannillaImage{
+    height: 100%;
+    width:80%;
+}
+.vannillaMain{
+    background-color: #b8bdb5;
+    box-shadow: 5px 5px 20px #dfe2de;
+    transition: all 1.5s;
+}
+.vannillaInnerDiv{
+    background-color: #e0e2db;
+}
+
+/* set some animation to images */
+.strawberryMain:hover{
+    height: 15vw;
+    width:15vw;
+}
+.chocolateMain:hover{
+    height: 15vw;
+    width:15vw;
+}
+.vannillaMain:hover{
+    height: 15vw;
+    width:15vw;
+}
+
+/* Description Section */
+.description{
+    height: 35vh;
+    padding:4rem;
+}
+.descPara{
+    font-size: 16px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
+/* styling review Page */
+.customerReview{
+    height: 15vh;
+}
+.customerReview h3{
+    text-align: center;
+}
+.carousel{
+    height: 90vh;
+    margin-bottom: 5vh;
+
+}
+.carousel-item{
+    height: 100%;
+}
+.carousel-inner{
+    height: 100%;
+    margin: auto;
+}
+.card{
+    height: 100%;
+    width:50%;
+    margin:auto;
+    
+}
+.carousel-control-next{
+    margin-right:5vw ;
+}
+.carousel-control-prev{
+    margin-left:5vw ;
+   
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #fec5bb;
+    border-radius: 50%;
+    margin: 2em;
+    height: 10vh;
+    width:10vh;
+}
+/* review images */
+.card-img-top{
+    width:15vw;
+    height: 30vh;
+    margin: auto;
+}
+.star-review{
+    width:20vw;
+    height: 10vh;
+}
+/* footer Section */
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #faded3;
+    display: flex;
+    justify-content: center;
+
+}
+.social{
+    width:50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* styling the story page */
+.storyMain{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:space-around;
+    margin: auto;
+    padding-top: 5vh;
+}
+
+.story{
+    
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.story img{
+    width:40vw;
+    height: 30vh;
+}
+.story p{
+    width:40vw;
+    height: 30vh;
+    text-align:center ;
+}
+#childhood{
+    width:100%;
+    height:100%;
+}
+#childhood img{
+    width:50%;
+    height: 50%;
+}
+#firstCake{
+    width:100%;
+    height:100%;
+}
+#firstCake img{
+    height: 40vh;
+    width:40%;
+}
+#afterCollege{
+    width:100%;
+    height:100%;
+}
+#finalStory p{
+    height: 100%;
+}
+#finalStory{
+    width:50%;
+    height: 30vh;
+    margin: auto;
+    padding: auto;
+    padding-top: 10vh;
+}
+.newsletterTitle{
+    text-align: center;
+}  
+.newsletter {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+/* newsletter form */
+.newsletter form{
+    width:50%;
+    margin: auto auto;
+    margin-top: 20px;
+    border:1px solid #5d3524;
+    padding: 3vh;
+}
+input[type=text], select ,input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #eecabb;
+    color: #5d3524;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #cb8c72;
+    color: #f5e2db;
+  }
+/* Pricing Table Page */
+.mainPrice{
+    width:80%;
+    text-align: center;
+    margin: auto;
+}
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10vh;
+  }
+  tr{
+    border:1px solid #5d3524;
+  }
+  th, td {
+    text-align: center;
+    padding: 8px;
+    font-family: cursive;
+  }
+  
+  tr:nth-child(even){background-color: #f0f0f0}
+  
+  th {
+    background-color: #fdd9ef;
+    color: black;
+    font-family: cursive;
+  }
+  
+
+  /* order form Page */
+
+  .orderForm{
+    width:50%;
+    margin: auto;
+    margin-top: 9vh;
+    margin-bottom: 9vh;
+  }

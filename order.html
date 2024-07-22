@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Orders</title>
+        <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/5717/5717439.png">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/ce6c91e8da.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navBar">
+            <div class="logo"><img src="https://outsourcetopk.com/public/assets/images/portfolio/logo/cake-5.png" alt="" class="logoIcon"></div>
+            <div class="links">
+                <ul>
+                    <li><a href="index.html" class="anchorLinks">Home</a></li>
+                    <li><a href="story.html" class="anchorLinks">Our Story</a></li>
+                    <li><a href="pricing.html" class="anchorLinks">Pricing Table</a></li>
+                    <li><a href="order.html" class="anchorLinks">Order Now</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="orderForm">
+            <h2>Create Your Custom Cake</h2>
+
+<form id="orderForm">
+    <label for="cakeSize">Cake Size:</label>
+    <select id="cakeSize" name="cakeSize" required>
+        <option value="">Select Size</option>
+        <option value="Small">Small (8-10 servings) - $35</option>
+        <option value="Medium">Medium (15-20 servings) - $55</option>
+        <option value="Large">Large (25-30 servings) - $75</option>
+        <option value="Custom">Custom Size (Contact for Quote)</option>
+    </select>
+
+    <label for="cakeFlavor">Cake Flavor:</label>
+    <select id="cakeFlavor" name="cakeFlavor" required>
+        <option value="">Select Flavor</option>
+        <option value="Vanilla">Vanilla - Included</option>
+        <option value="Chocolate">Chocolate - Included</option>
+        <option value="Red Velvet">Red Velvet - +$5</option>
+        <option value="Lemon">Lemon - +$5</option>
+        <option value="Carrot">Carrot - +$5</option>
+        <option value="Custom Flavor">Custom Flavor (Contact for Quote)</option>
+    </select>
+
+    <label for="cakeFilling">Filling:</label>
+    <select id="cakeFilling" name="cakeFilling" required>
+        <option value="">Select Filling</option>
+        <option value="Vanilla Cream">Vanilla Cream - Included</option>
+        <option value="Chocolate Ganache">Chocolate Ganache - +$5</option>
+        <option value="Strawberry Jam">Strawberry Jam - +$5</option>
+        <option value="Lemon Curd">Lemon Curd - +$5</option>
+        <option value="Custom Filling">Custom Filling (Contact for Quote)</option>
+    </select>
+
+    <label for="cakeFrosting">Frosting:</label>
+    <select id="cakeFrosting" name="cakeFrosting" required>
+        <option value="">Select Frosting</option>
+        <option value="Buttercream">Buttercream - Included</option>
+        <option value="Fondant">Fondant - +$10</option>
+        <option value="Cream Cheese">Cream Cheese - +$5</option>
+        <option value="Whipped Cream">Whipped Cream - Included</option>
+        <option value="Custom Frosting">Custom Frosting (Contact for Quote)</option>
+    </select>
+
+    <label for="decorations">Decorations:</label>
+    <textarea id="decorations" name="decorations" placeholder="Describe your decoration preferences or any custom requests (e.g., edible flowers, fondant figures)" required></textarea>
+
+    <label for="deliveryOption">Delivery Option:</label>
+    <select id="deliveryOption" name="deliveryOption" required>
+        <option value="">Select Option</option>
+        <option value="Pickup">Pickup at Store - Free</option>
+        <option value="Delivery">Delivery (within 10 miles) - $15</option>
+        <option value="Additional Mileage">Additional Mileage - +$1 per mile</option>
+    </select>
+
+    <label for="deliveryDate">Preferred Delivery Date:</label>
+    <input type="date" id="deliveryDate" name="deliveryDate" required>
+
+    <label for="deliveryTime">Preferred Delivery Time:</label>
+    <input type="time" id="deliveryTime" name="deliveryTime" required>
+
+    <label for="customerName">Your Name:</label>
+    <input type="text" id="customerName" name="customerName" required>
+
+    <label for="customerPhone">Phone Number:</label>
+    <input type="tel" id="customerPhone" name="customerPhone" required>
+
+    <label for="customerEmail">Email Address:</label>
+    <input type="email" id="customerEmail" name="customerEmail" required>
+
+    <button type="submit">Submit Order</button>
+</form>
+        </main>
+
+          <!-- a footer to set the social media contact -->
+          <footer>
+            <div class="social">
+                <a><i class="fa-brands fa-facebook"></i> our facebook page</a>
+                <a><i class="fa-brands fa-instagram"></i> our instagram page</a>
+
+            </div>
+         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <script src="" async defer></script>
+    </body>
+</html>
