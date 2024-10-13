@@ -209,6 +209,7 @@ h1, h2, h3, h4, h5, h6, p, a, li, label{
     height: 100%;
     width:50%;
     margin:auto;
+    display: flex;
     
 }
 .carousel-control-next{
