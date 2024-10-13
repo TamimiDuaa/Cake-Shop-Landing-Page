@@ -328,7 +328,7 @@ footer{
     border:1px solid #5d3524;
     padding: 3vh;
 }
-input[type=text], select ,input[type=email]{
+select ,input, textarea{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -338,7 +338,7 @@ input[type=text], select ,input[type=email]{
     box-sizing: border-box;
   }
   
-  input[type=submit] {
+  input[type=submit], .orderBtn {
     width: 100%;
     background-color: #eecabb;
     color: #5d3524;
@@ -348,8 +348,9 @@ input[type=text], select ,input[type=email]{
     border-radius: 4px;
     cursor: pointer;
   }
+
   
-  input[type=submit]:hover {
+  input[type=submit]:hover,.orderBtn:hover {
     background-color: #cb8c72;
     color: #f5e2db;
   }
